@@ -16,6 +16,10 @@ export const Skill = (props: SkillPropsType) => {
 	);
 };
 
-const StyledSkill = styled.div``;
+const StyledSkill = styled.div`
+	text-align: center;
+`;
 
-const SkillTitle = styled.h3``;
+const SkillTitle = styled.h3`
+	margin-top: 20px;
+`;
